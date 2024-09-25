@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/assessment-todo">
       <Routes>
         <Route path="/tasks" element={<TaskList />} />
         <Route path="/profile" element={<Profile />} />
